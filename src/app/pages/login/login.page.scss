@@ -7,15 +7,15 @@
   z-index: 2;
 
   &.top { //reutilização de código
-      top: 5%;
+    top: 5%;
   }
 
   &.bottom { //reutilização de código
-      bottom: 30%;
+    bottom: 30%;
 
-      span {
-          color: #fff;
-      }
+    span {
+      color: #fff;
+    }
   }
 }
 
@@ -23,19 +23,19 @@ ion-slides {
   height: 100%;
 
   .slide-inner {
-      width: 75%;
-      color: #fff;
-      background-color: #0072bc;
-      border-radius: 10px;
+    width: 75%;
+    color: #fff;
+    background-color: #0072bc;
+    border-radius: 10px;
+    
+    ion-item {
+      --background: rgba(255, 255, 255, 0.2);
+      --border-radius: 10px;
 
-      ion-item {
-          --background: rgba(255, 255, 255, 0.2);
-          --border-radius: 10px;
-
-          ion-input {
-              --color: #fff;
-          }
+      ion-input {
+        --color: #fff;
       }
+    }
   }
 }
 
@@ -53,8 +53,8 @@ ion-slides {
       left: 0;
       right: 0;
       height: 100px;
-      background-image: url('/assets/img/waves.png');
+      background-image: url('/assets/img/aa.jpg');
       background-size: contain;
-      transition: all 0.5s;
+      transition: all 0.5s; //passagem suave
   }
 }
