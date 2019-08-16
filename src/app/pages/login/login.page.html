@@ -3,7 +3,7 @@
     <!-- <img src="/assets/img/aa.jpg"> -->
 
     <!-- Segment with default selection -chama o evento para ver qual botão está ativo -->
-    <ion-segment value="javascript">
+    <ion-segment (ionChange)="segmentChanged($event)" value="javascript">
         <ion-segment-button value="login">
           <ion-label>Login</ion-label>
         </ion-segment-button>
